@@ -37,7 +37,8 @@ public class Druide {
 			System.out.println("Non, Obélix !... Tu n’auras pas de potion magique !");
 		}
 		else {
-			preparerPotion();
+			int jsp=preparerPotion();
+			gaulois.boirePotion(jsp);
 		}
 		
 	}

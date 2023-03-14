@@ -11,11 +11,13 @@ public class Scenario {
 		Gaulois Obelix = new Gaulois ( "Obelix", 20);
 		Romain Minus = new Romain("Minus",6);
 		Druide Panoramix= new Druide ("Panoramix",5,10);
-		Panoramix.booster(Obelix);
 		System.out.println(Asterix);
 		Asterix.parler("bonjour");
 		Minus.parler("oh non");
+		Obelix.parler("je vais prendre un peu de potion.");
 		Panoramix.booster(Obelix);
+		System.out.println(Asterix);
+		Panoramix.booster(Asterix);
 		System.out.println(Asterix);
 		Asterix.frapper(Minus);
 		Asterix.frapper(Minus);
